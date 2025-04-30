@@ -1,8 +1,8 @@
 class GitCa < Formula
   desc "AI-powered Git plugin for generating meaningful commit messages"
   homepage "https://github.com/zh30/git-commit-analyzer"
-  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "0111829d5f8415123e4f6d556d658c4b0c065d7c7bfaee38519b00fb8203562f"
+  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "b9e9837ed1f7eddb37b7d716b51657ae4ea234e6c648304906f7563317390fa7"
   license "MIT"
   head "https://github.com/zh30/git-commit-analyzer.git", branch: "main"
 
