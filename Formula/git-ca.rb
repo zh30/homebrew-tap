@@ -1,16 +1,16 @@
 class GitCa < Formula
   desc "AI-powered Git plugin for generating meaningful commit messages"
   homepage "https://github.com/zh30/git-commit-analyzer"
-  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v2.0.5.tar.gz"
-  sha256 "57a24b8aa4720b8a84b2d43892f10a746bd0023cb31a565d00122a3d2b1f6e36"
+  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v2.0.6.tar.gz"
+  sha256 "4e3900bf1f7b6801d0ed60f1e4e740c6148117f80c817fe47a2193d7942a7556"
   license "MIT"
   head "https://github.com/zh30/git-commit-analyzer.git", branch: "main"
 
   # Bottle support for pre-built binaries
   bottle do
-    root_url "https://github.com/zh30/git-commit-analyzer/releases/download/v2.0.5"
-    sha256 cellar: :any_skip_relocate, arm64_sequoia: "5e71a3d6b433377c99363bee9c586c3432d400bc6a42442adccdae7b38fb0cbb"
-    sha256 cellar: :any_skip_relocate, x86_64_sequoia: "0ece2af3fa560042412b1d792be5b64df8bde4524d9152897e94c5999fd31085"
+    root_url "https://github.com/zh30/git-commit-analyzer/releases/download/v2.0.6"
+    sha256 cellar: :any, arm64_sequoia: "9e81a0b87261cb8abb3f2a77f307dd2d2fa6bdca5608c340b36fdcc7aa69f3d8"
+    sha256 cellar: :any, x86_64_sequoia: "292f508cd498037bf167162023d7986dfbb7b18a3821f2f5da36fe4f5c870a10"
   end
 
   def install
