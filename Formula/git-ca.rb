@@ -1,16 +1,14 @@
 class GitCa < Formula
   desc "AI-powered Git plugin for generating meaningful commit messages"
   homepage "https://github.com/zh30/git-commit-analyzer"
-  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v2.0.14.tar.gz"
-  sha256 "266aabd8a791c2988cbcbac827965c86672b2c82bb5bcc5c1cdbebeb3b22d17b"
+  url "https://github.com/zh30/git-commit-analyzer/archive/refs/tags/v2.0.15.tar.gz"
+  sha256 "9e5ff92fa53fca20846f712280d7598f19a2f0606acc23558b13806a91bf092c"
   license "MIT"
   head "https://github.com/zh30/git-commit-analyzer.git", branch: "main"
 
   # Bottle support for pre-built binaries
   bottle do
-    root_url "https://github.com/zh30/git-commit-analyzer/releases/download/v2.0.14"
-    sha256 cellar: :any, : ""
-    sha256 cellar: :any, : ""
+    root_url "https://github.com/zh30/git-commit-analyzer/releases/download/v2.0.15"
   end
 
   def install
